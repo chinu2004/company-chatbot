@@ -24,9 +24,11 @@ main_placeholder = st.empty()
 # 📄 Load CSV from repo
 loader = CSVLoader(
     file_path="codebasics_faqs.csv",
-    source_column="prompt"
+    source_column="prompt",
+    encoding="utf-8"
 )
 data = loader.load()
+
 
 # 🔎 Embeddings
 embeddings = HuggingFaceEmbeddings(
