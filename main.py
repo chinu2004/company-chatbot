@@ -25,7 +25,7 @@ main_placeholder = st.empty()
 loader = CSVLoader(
     file_path="codebasics_faqs.csv",
     source_column="prompt",
-    encoding="utf-8"
+    encoding="latin-1"
 )
 data = loader.load()
 

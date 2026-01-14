@@ -1,12 +1,10 @@
 streamlit
 langchain
 langchain-community
-langchain-core
 langchain-mistralai
-huggingface-hub
 sentence-transformers
 faiss-cpu
-python-dotenv
+huggingface-hub
 pandas
-unstructured
-tiktoken
+numpy
+requests
