@@ -148,10 +148,4 @@ faiss-cpu
 sentence-transformers
 ```
 
-> See `requirements.txt` for the full list.
-
----
-
-## 📄 License
-
-MIT License. Free to use and adapt for your own company's FAQ dataset.
+ 
